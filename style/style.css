@@ -535,7 +535,7 @@ body {
     text-align: center;
     line-height: 54px;
     height: 61px;
-    color: #fff;
+    color: #e21010;
     font-weight: 700;
     font-size: 20px;
     border-radius: 26px;
@@ -871,7 +871,7 @@ form p {
       input[type=text], input[type=password], input[type=email]{
      /* width: calc(100% - 57px);*/
       width: 35%;
-      height: 36px;
+      height: 60px;
       padding-left: 36px;
      /* border-radius: 0 5px 5px 0;*/
       border-radius: 5px;
@@ -879,7 +879,14 @@ form p {
       box-shadow: 1px 2px 5px rgba(0,0,0,.09);
       background: #fff;
       }
-
+      @media screen and (max-width:1224px) {
+        input[type=text], input[type=password], input[type=email]{
+            width: 100%;
+        }
+        .fa-ini{
+            left: 2% !important;
+        }
+      }
       input[type=password] {
       margin-bottom: 15px;
       }
@@ -913,8 +920,8 @@ form p {
     line-height: 1.9;
     position: absolute;
     position: absolute;
-    top: 10px;
-    left: 33.5%;
+    top: 21px;
+    left: 33.2%;
       }
       .fa-ene{
      color: #040404;
@@ -947,23 +954,22 @@ form p {
     margin-left: 0px;
     border-radius: 0px 0px 10px 10px;
       }
-   .flip-card {
-    background-color: transparent;
-    position: absolute;
-    width: 91%;
-    height: 65%;
-    top: 50%;
-    margin-top: -35px;
-    left: 100%;
-    -webkit-transform: translate(-14%, -50%) scale(.8);
-    transform: translate(-14%, -50%) scale(.8);
-    -webkit-perspective: 1000px;
-    perspective: 1000px
-}
+      .flip-card {
+        background-color: transparent;
+        position: absolute;
+        width: 91%;
+        height: 84%;
+        top: 50%;
+        left: 100%;
+        -webkit-transform: translate(-14%, -50%) scale(.8);
+        transform: translate(-14%, -50%) scale(.8);
+        -webkit-perspective: 1000px;
+        perspective: 1000px;
+    }
  input[type=text], input[type=password], input[type=email]{
      /* width: calc(100% - 57px);*/
       width: 97%;
-      height: 36px;
+      height: 60px;
       margin: 13px 0 0 -5px;
       padding-left: 40px;
      /* border-radius: 0 5px 5px 0;*/
@@ -972,16 +978,17 @@ form p {
       box-shadow: 1px 2px 5px rgba(0,0,0,.09);
       background: #fff;
       }
- .fa-ini {
-    color: #9a8181;
-    display: block !important;
-    /* font-family: Parshicons; */
-    font-size: 17px;
-    line-height: 1.9;
-    margin: -26px 0px 0px 0px;
-    position: absolute;
-    margin-left: 15px;
-}
+      .fa-ini {
+        color: #d9213e;
+        display: block !important;
+        /* font-family: Parshicons; */
+        font-size: 17px;
+        line-height: 1.9;
+        /* margin: -26px 0px 0px 0px; */
+        position: absolute;
+        margin-left: 10px;
+        top: 34px;
+    }
 .screen-title {
     font-size: 21px;
     font-weight: 700;
